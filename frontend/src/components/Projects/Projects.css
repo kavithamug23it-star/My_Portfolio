@@ -183,3 +183,20 @@
     font-size: 34px;
   }
 }
+@media(max-width:768px){
+
+  .project-card{
+    flex-direction:column;
+    padding:20px;
+  }
+
+  .project-buttons{
+    flex-direction:column;
+  }
+
+  .github-btn,
+  .demo-btn{
+    text-align:center;
+  }
+
+}

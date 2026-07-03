@@ -109,3 +109,20 @@
     color:white;
 
 }
+
+@media(max-width:768px){
+
+  .about-container{
+    flex-direction:column;
+  }
+
+  .about-left h2{
+    font-size:34px;
+  }
+
+  .about-right{
+    grid-template-columns:1fr;
+    width:100%;
+  }
+
+}

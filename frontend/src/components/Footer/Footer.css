@@ -36,3 +36,19 @@
     font-size:14px;
     color:#94A3B8;
 }
+@media (max-width: 768px) {
+
+  .footer{
+    padding:40px 20px;
+  }
+
+  .footer h2{
+    font-size:28px;
+  }
+
+  .footer-links{
+    flex-direction:column;
+    gap:15px;
+  }
+
+}

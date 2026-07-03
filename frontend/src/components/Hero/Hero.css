@@ -77,3 +77,32 @@
   border: 5px solid #38bdf8;
   box-shadow: 0 0 30px rgba(56, 189, 248, 0.4);
 }
+@media (max-width:768px){
+
+  .hero{
+    height:auto;
+    padding:120px 20px 60px;
+  }
+
+  .hero-container{
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+  }
+
+  .hero-left h1{
+    font-size:36px;
+  }
+
+  .hero-image{
+    width:250px;
+    height:250px;
+  }
+
+  .hero-buttons,
+  .hero-icons{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+}

@@ -82,14 +82,28 @@
 
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
 
-.education-card{
+  .education{
+    padding:70px 20px;
+  }
 
+  .education-card{
     flex-direction:column;
-
     text-align:center;
+    padding:25px;
+  }
 
-}
+  .education-icon{
+    font-size:50px;
+  }
+
+  .education-content h2{
+    font-size:28px;
+  }
+
+  .education-content h3{
+    font-size:20px;
+  }
 
 }
